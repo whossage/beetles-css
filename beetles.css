@@ -1,14 +1,13 @@
-/* Beetle Dens - same background for all */
 a[href$="130269"] > div.cave-grid,
 a[href$="138013"] > div.cave-grid,
 a[href$="175410"] > div.cave-grid {
-  background-image: url('https://i.imgur.com/LecVzTd.jpeg');
-  background-size: cover;
-  background-position: center;
+  background-image: url('https://i.imgur.com/LecVzTd.jpeg') !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 a[href$="130269"] > div.cave-grid > img,
 a[href$="138013"] > div.cave-grid > img,
 a[href$="175410"] > div.cave-grid > img {
-  opacity: 0;
+  opacity: 0 !important;
 }
